@@ -1,0 +1,5 @@
+dia = input('Dia =')
+mes = input('Mes =')
+ano = input('Ano =')
+print('Você nasceu no dia {}{} {} {}{}.'.format('\033[36m', dia, mes, ano, '\033[m'))
+print('Estou certo?')
